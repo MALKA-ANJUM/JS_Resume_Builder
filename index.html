@@ -8,7 +8,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<div class="container">
+    <form action="#" class="input-fields">
+        <h1>Resume Generator</h1>
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="title" placeholder="Title eg., Web Developer">
+        <textarea name="workexp" placeholder="Work Experience"></textarea>
+        <textarea name="academics" placeholder="Academic Details"></textarea>
+        <input type="text" name="objective" placeholder="Objective">
+        <textarea name="skills" placeholder="Skills"></textarea>
+        <textarea name="projects" placeholder="Projects"></textarea>
+        <textarea name="achievements" placeholder="Achievements"></textarea>
+        <textarea name="contact" placeholder="Contact"></textarea>
+    </form>
+
+    <div class="output">
+        <!-- <div class="hero">
+            <h1>${inputfields["name"].value}</h1>
+            <h3>${inputfields["title"].value}</h3>
+        </div>
+        <div class="main">
+            <div>
+                <h2>Objective</h2>
+                    <p>${inputfields["objective"].value}</p>
+                <h2>Skilss</h2>
+                    <p>${inputfields["skills"].value}</p>
+                <h2>Achievements</h2>
+                    <p>${inputfields["achievements"].value}</p>
+                <h2>Contact</h2>
+                    <p>${inputfields["contact"].value}</p>
+            </div>
+            <div>
+                <h2>Work Experience</h2>
+                    ${workExpdetails.getData()}
+                <h2>Academics</h2>
+                    ${Academic.getData()}
+                <h2>Projects</h2>
+                    <p>${inputfields["projects"].value}</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button onclick="print()">Print Resume</button>
+        </div> -->
+    </div>
+    <div class="btn">
+        <button onclick="toggle()">Preview or edit</button>
+    </div>
+</div>
 
 
 
@@ -20,9 +66,7 @@
 
 
 
-
-
-
+    <script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
