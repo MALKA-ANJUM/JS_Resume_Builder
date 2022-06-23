@@ -31,19 +31,22 @@ input:focus,textarea:focus {
 .hero{
     background: linear-gradient(100deg, #D1734F, #f9ae90);
     text-align: left;
-    padding: 1em 4em;
+    padding: 1em 3em;
     color:white;
 }
 .main{
     display: flex;
-    justify-content: space-between;
-    margin: 20px;  
+    justify-content: space-evenly;
+
 }
 .main h2{
     width: max-content;
     color:#000;
     font-family: serif;
-    
+   
+}
+.main .topic{
+    margin: 3em 1em;
 }
 .btn{
     text-align: center;
@@ -60,9 +63,8 @@ input:focus,textarea:focus {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     
 }
-
 @media print {
-               .noprint {
-                  visibility: hidden;
-               }
-            }
+    .noprint {
+       visibility: hidden;
+    }
+ }

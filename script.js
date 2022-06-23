@@ -46,23 +46,36 @@ function toggle() {
                             </div>
                             <div class="main" stl>
                                 <div>
-                                    <h2>Objective:</h2>
+                                    <div class="topic">
+                                        <h2>Objective:</h2>
                                         <p>${inputfields["objective"].value}</p>
-                                    <h2>Skilss:</h2>
+                                    </div>
+                                    <div class="topic">
+                                        <h2>Skills:</h2>
                                         <p>${inputfields["skills"].value}</p>
-                                    <h2>Achievements:</h2>
+                                    </div>
+                                    <div class="topic">
+                                        <h2>Achievements:</h2>
                                         <p>${inputfields["achievements"].value}</p>
-                                    <h2>Contact:</h2>
+                                    </div>
+                                    <div class="topic">
+                                        <h2>Contact:</h2>
                                         <p>${inputfields["contact"].value}</p>
-
+                                    </div>
                                 </div>
                                 <div>
-                                    <h2>Work Experience:</h2>
+                                    <div class="topic">
+                                        <h2>Work Experience:</h2>
                                         ${workExpdetails.getData()}
-                                    <h2>Academics:</h2>
+                                    </div>
+                                    <div class="topic">
+                                        <h2>Academics:</h2>
                                         ${Academic.getData()}
-                                    <h2>Projects:</h2>
+                                    </div>
+                                    <div class="topic">
+                                        <h2>Projects:</h2>
                                         ${Projects.getData()}
+                                    </div>
                                 </div>
                             </div>
                             <div class="btn">
