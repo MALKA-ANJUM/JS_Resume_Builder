@@ -66,7 +66,7 @@ function toggle() {
                                 </div>
                             </div>
                             <div class="btn">
-                                <button onclick="print()">Print Resume</button>
+                                <button onclick="print()" class="noprint">Print Resume</button>
                             </div>`
     }else{
         inputfields.style.display = "block"
