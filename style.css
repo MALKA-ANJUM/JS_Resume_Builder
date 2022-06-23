@@ -37,7 +37,7 @@ input:focus,textarea:focus {
 .main{
     display: flex;
     justify-content: space-between;
-    margin: 10px;  
+    margin: 20px;  
 }
 .main h2{
     width: max-content;
